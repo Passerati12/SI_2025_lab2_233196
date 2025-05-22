@@ -1,4 +1,4 @@
-# SI_2025_lab2_233196
+# Petar Markovski 233196
 
 ## Control flow graph
 ![lab2 cfg](https://github.com/user-attachments/assets/9b6b6189-4df4-46c5-b1e9-481c4b862dc1)

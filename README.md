@@ -4,13 +4,9 @@
 ![lab2 cfg](https://github.com/user-attachments/assets/9b6b6189-4df4-46c5-b1e9-481c4b862dc1)
 
 ## Цикломатска комплексност
-Цикломатската комплексност е 9
-Предикатни јазли (P) = 8
-P + 1 = 8 + 1 = 9
-Ребра (E) = 32
-Јазли (N) = 25
-E - N + 2
-32 - 25 + 2 = 9
+Цикломатската комплексност е 9.
+Бројот на предикатни јазли (P) е 8 така што P + 1 = 8 + 1 = 9.
+Бројот на ребра (E) = 32 и јазли (N) = 25 така што 32 - 25 + 2 = 9
 
 ## Тест случаи според критериумот Every statement
 Минимален број на тестови за да се постигне Every Statement критериумот е 6.
@@ -24,11 +20,11 @@ E - N + 2
             List<Item> items= List.of(new Item(null,1,100,0));
             SILab2.checkCart(items,"1234567890123456");});
         assertTrue(ex2.getMessage().contains("Invalid item!"));
-//7-9-11
+
         List<Item> items3= List.of(new Item("Item1",5,100,0));
         double result3=SILab2.checkCart(items3,"1234567890123456");
         assertEquals(500,result3);
-//7-8-9-10
+
         List<Item> items5= List.of(new Item("Item3",3,100,0.2));
         double result5=SILab2.checkCart(items5,"1234567890123456");
         assertEquals(210,result5);
